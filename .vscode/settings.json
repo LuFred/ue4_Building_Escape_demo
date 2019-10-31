@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"D:/code/ue4/ue4_Building_Escape_demo-master/Building_Escape/.vscode": true,
+		"D:/code/ue4/ue4_Building_Escape_demo-master/Building_Escape/Content": true,
+		"D:/code/ue4/ue4_Building_Escape_demo-master/Building_Escape/Intermediate": true
+	}
+}

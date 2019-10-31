@@ -1,0 +1,1247 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Building_Escape Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Win32",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Win64",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"Android",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Shipping",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_Escape HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_Escape",
+				"HTML5",
+				"Test",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_EscapeEditor",
+				"Win64",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_EscapeEditor",
+				"Win64",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_EscapeEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_EscapeEditor",
+				"Win64",
+				"Debug",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_EscapeEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_EscapeEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_EscapeEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_EscapeEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_EscapeEditor",
+				"Win64",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Building_EscapeEditor",
+				"Win64",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_EscapeEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Building_EscapeEditor",
+				"Win64",
+				"Development",
+				"D:\\code\\ue4\\ue4_Building_Escape_demo-master\\Building_Escape\\Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		}
+	]
+}
