@@ -8,6 +8,9 @@
 #include "OpenDoorComponent.generated.h"
 
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnOpenDoorRequest);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnCloseDoorRequest);
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class BUILDING_ESCAPE_API UOpenDoorComponent : public UActorComponent
 {
@@ -32,4 +35,9 @@ private:
 	ATriggerVolume* PressurePlate;
 	void OpenDoor();
 	void CloseDoor();
+
+	UPROPERTY(BlueprintAssignable)
+	FOnOpenDoorRequest OnOpenDoorRequest;
+	UPROPERTY(BlueprintAssignable)
+	FOnCloseDoorRequest OnCloseDoorRequest;
 };
